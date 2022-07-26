@@ -1,4 +1,7 @@
 {
+  "macros": {
+    "macros": []
+  },
   "modules": {
     "Aimbot": {
       "state": false,
@@ -582,7 +585,7 @@
       }
     },
     "ChestStealer": {
-      "state": true,
+      "state": false,
       "keybind": 48,
       "array": true,
       "autodisable": "NONE",
@@ -735,14 +738,14 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "VulcanCombat",
+        "Mode": "FakeLag",
         "Debug": false,
         "FakeLag-Position": true,
         "FakeLag-Block": true,
         "FakeLag-Attack": true,
-        "FakeLag-C03Spoof": true,
+        "FakeLag-C03Spoof": false,
         "FakeLag-LagDelay": 0,
-        "FakeLag-LagDuration": 200,
+        "FakeLag-LagDuration": 0,
         "Hypixel-WatchDog_Disabler": true,
         "VerusSlientFlagApply": true,
         "VerusBufferSize": 300,
@@ -985,8 +988,8 @@
       "values": {
         "Mode": "Arris",
         "Font": {
-          "fontName": "文泉驿微米黑(完整版)_by_zxl1103",
-          "fontSize": 40
+          "fontName": "Minecraft",
+          "fontSize": -1
         },
         "SmoothHudMove": true,
         "SmoothHudMoveValue": 3,
@@ -1013,7 +1016,7 @@
     },
     "Freeze": {
       "state": false,
-      "keybind": 0,
+      "keybind": 45,
       "array": true,
       "autodisable": "RESPAWN",
       "trigger": "TOGGLE",
@@ -1244,7 +1247,7 @@
       }
     },
     "InventoryCleaner": {
-      "state": true,
+      "state": false,
       "keybind": 48,
       "array": true,
       "autodisable": "NONE",
@@ -1370,7 +1373,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "MaxCPS": 12,
+        "MaxCPS": 10,
         "MinCPS": 8,
         "HurtTime": 10,
         "1.9CombatDelay": false,
@@ -1396,18 +1399,18 @@
         "RayCast": false,
         "RayCastIgnored": false,
         "LivingRayCast": false,
-        "AAC": true,
-        "RotationMode": "LockView",
+        "AAC": false,
+        "RotationMode": "SmoothLiquid",
         "MaxTurnSpeed": 62.8,
         "MinTurnSpeed": 48.08,
         "SmoothMode": "Custom",
-        "CustomSmooth": 1.66,
+        "CustomSmooth": 1.51,
         "RandomCenter": "Horizonal",
         "RandomRange": 0.24,
         "SilentRotation": true,
         "Strafe": "Strict",
         "StrafeOnlyGround": false,
-        "RotationReverse": true,
+        "RotationReverse": false,
         "RotationReverseTick": 15,
         "KeepDirection": false,
         "KeepDirectionTick": 15,
@@ -1554,8 +1557,8 @@
         "Potions": true,
         "ClearNames": true,
         "Font": {
-          "fontName": "文泉驿微米黑(完整版)_by_zxl1103",
-          "fontSize": 40
+          "fontName": "Minecraft",
+          "fontSize": -1
         },
         "Border": true,
         "LocalPlayer": true,
@@ -1961,7 +1964,7 @@
         "TowerFakeJump": true,
         "TowerActivation": "NoMove",
         "TowerTimer": 1.0,
-        "SameY": "WhenSpeed",
+        "SameY": "OFF",
         "SafeWalk": "Ground",
         "HitableCheck": "Strict",
         "ExtraClick": "OFF",
@@ -1989,12 +1992,12 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "MathOverFlow",
+        "Mode": "AACv5",
         "PacketAmount": 500,
         "BookType": "Plain",
         "BookMode": "Payload",
         "BookOnlyOnce": false,
-        "Log4JMode": "Chat",
+        "Log4JMode": "RawChat",
         "SlientInventory": false
       }
     },
@@ -2023,7 +2026,7 @@
         "MinDelay": 500,
         "Mode": "Single",
         "EndingRandomChars": 3,
-        "Message": "[MatrixU5er] Matrix6.8.14 AntiCheat On Top | EZ Bypass All ",
+        "Message": "[MatrixU5er] Get F D P C l i e n t Configs on Github.c om/MatrixU5er/Configs | ",
         "InsultMessage": "[%s] %w [%s]"
       }
     },
@@ -2330,8 +2333,5 @@
       "trigger": "TOGGLE",
       "values": {}
     }
-  },
-  "macros": {
-    "macros": []
   }
 }
